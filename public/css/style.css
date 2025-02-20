@@ -13,9 +13,25 @@ header {
 }
 
 .bg-blue {
-    background-color: #00B4D7;
+    background: linear-gradient(to bottom, #62CFF6, #D6F935, #026559);
 }
+
 
 .kategori {
     overflow-x: auto;
 }
+.video-fluid {
+    width: 90%;
+    height: 80vh;
+    object-fit: cover;
+    position: relative; /* Pastikan tetap di tempat */
+    left: 0%; /* Geser ke kanan jika perlu */
+}
+
+
+.video-fluid {
+    width: 90%;
+    height: 80vh; /* Video setinggi layar */
+    object-fit: cover;
+}
+

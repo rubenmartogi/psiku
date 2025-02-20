@@ -57,20 +57,31 @@
         </div>
     </nav>
 
-    <!-- Header -->
-    <header class="bg-blue py-5">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="display-3 text-white mt-5 mb-2">@lang('landing.welcome')</h1>
-                    <p class="lead mb-5 text-white-50">@lang('landing.tagline')</p>
-                </div>
-                <div class="col-lg-6">
-                    <img class="img-fluid d-none d-lg-block" src="{{asset('img/landing/LOGO.png')}}" alt="" srcset="">
-                </div>
+  <!-- Header -->
+<!-- Header -->
+<header class="bg-blue py-5">
+    <div class="container-fluid h-100">
+        <div class="row h-100 align-items-center d-flex">
+            <!-- Logo di kiri -->
+            <div class="col-lg-6 text-center">
+                <img class="img-fluid" src="{{ asset('img/landing/LOGO.png') }}" alt="Capcapung Logo" style="max-width: 550px;">
+                <p class="lead mb-5 text-white-50">@lang('landing.tagline')</p>
+            </div>
+            <!-- Video di kanan -->
+            <div class="col-lg-6 d-flex justify-content-end p-0 overflow-hidden">
+                <video class="video-fluid" autoplay muted loop>
+                    <source src="{{ asset('img/landing/vidio.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
-    </header>
+    </div>
+</header>
+
+
+
+
+
 
     <section class="p-5 text-center">
         <h3>@lang('landing.why')</h3>
