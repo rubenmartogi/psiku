@@ -45,7 +45,7 @@
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="{{url('id')}}">Indonesia</a>
-                                <a class="dropdown-item" href="{{url('en')}}">English</a>
+                                <a class="dropdown-item" href="{{url('en')}}">Inggris</a>
                             </div>
                         </div>
                     </li>
@@ -81,19 +81,20 @@
     <div class="container p-5">
         <div class="row">
             <div class="col-lg-6">
-                <h4>Capcapung</h4>
-                <p>Solusi bagi para pencari rupiah</p>
+                <h4>Pukka Simbolon dalam usaha Capcapung</h4>
+                <p>Dulu, saya hanya seorang pemula yang ingin mencari penghasilan tambahan dengan modal minim. Berawal dari rasa penasaran, saya mencoba membudidayakan cacing tanah di halaman belakang rumah. Awalnya, banyak orang meremehkan ide ini, menganggapnya kotor dan tidak menjanjikan. Namun, saya tetap melangkah dengan keyakinan bahwa setiap usaha yang ditekuni pasti membuahkan hasil. Dengan modal kecil dan belajar dari berbagai sumber, saya mulai memahami cara merawat cacing, mengelola media hidupnya, hingga mencari pasar yang tepat. Perlahan tapi pasti, hasil panen semakin banyak, permintaan meningkat, dan keuntungan pun mulai terasa. Dari pengalaman ini, saya sadar bahwa tidak ada usaha yang terlalu kecil jika dikerjakan dengan tekad dan strategi yang tepat.</p>
             </div>
             <div class="col-lg-6 d-none d-lg-block text-center">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" width="560" height="315" 
-                        src="https://www.youtube.com/embed/XXdJ8f7mBlw" frameborder="0" allowfullscreen>
+                        src="https://www.youtube.com/embed/F1uT7TMm4sw" frameborder="0" allowfullscreen>
                     </iframe>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 
     <section class="kelebihan bg-blue text-white">
@@ -107,8 +108,8 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <h4>Ternak</h4>
-                <p>Budidaya peternakan dengan cara mudah</p>
+                <h4>Peluang Usaha Budidaya Cacing Tanah: Modal Kecil, Keuntungan Besar!</h4>
+                <p>Budidaya cacing tanah kini semakin diminati sebagai peluang usaha yang menjanjikan. Dengan modal kecil, siapa pun bisa memulai bisnis ini di lahan terbatas. Cacing tanah memiliki permintaan tinggi, terutama untuk kebutuhan pakan ternak, pupuk organik, dan industri perikanan. Selain mudah dirawat, pertumbuhannya cepat, sehingga keuntungan bisa diraih dalam waktu singkat. Jika dikelola dengan baik, usaha ini bisa menjadi sumber penghasilan yang stabil dengan pasar yang terus berkembang.</p>
             </div>
         </div>
     </div>
@@ -119,13 +120,13 @@
     <div class="container p-5">
         <div class="row">
             <div class="col-lg-6">
-                <h4>Bantuan untuk para petani</h4>
-                <p>Capcapung sudah memberikan bantuan bagi banyak petani demi kesuksesan tanaman</p>
+                <h4>Dari Kota ke Desa: Perjalanan Capcapung Menjadi Petani Sukses</h4>
+                <p>Capcapung adalah sosok inspiratif yang berani meninggalkan gemerlap karir di kota demi mengejar kehidupan yang lebih bermakna di desa. Dengan tekad kuat, ia beralih menjadi petani dan membuktikan bahwa hidup di pedesaan bukan berarti tanpa peluang. Berawal dari lahan sederhana, ia mengembangkan usaha pertanian yang kini sukses dan memberikan manfaat bagi banyak orang. Keputusan besar ini bukan hanya tentang mencari penghidupan, tetapi juga menemukan kebahagiaan sejati dalam kesederhanaan dan kedekatan dengan alam.</p>
             </div>
             <div class="col-lg-6 d-none d-lg-block text-center">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" width="560" height="315" 
-                        src="https://www.youtube.com/embed/mhqzK7_miVw" frameborder="0" allowfullscreen>
+                        src="https://www.youtube.com/embed/ES_pHLM0z0I" frameborder="0" allowfullscreen>
                     </iframe>
                 </div>
             </div>
@@ -134,9 +135,11 @@
 </section>
 
 
+
     <section class="text-center p-5">
-        <h3>...</h3>
-    </section>
+    <button class="btn btn-primary">Tambahkan Artikel</button>
+</section>
+
 
     <section class="bg-blue p-5 text-center">
         <div class="container">
@@ -145,7 +148,7 @@
                     <div class="card">
                         <img src="{{asset('img/landing/Baju.jpg')}}" class="card-img-top" alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Solusi Pertanian</p>
+                            <p class="card-text">Artikel 1</p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +156,7 @@
                     <div class="card">
                         <img src="{{asset('img/landing/Celana.jpg')}}" class="card-img-top" alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Solusi Peternakan</p>
+                            <p class="card-text">Artikel 2</p>
                         </div>
                     </div>
                 </div>
@@ -161,18 +164,18 @@
                     <div class="card">
                         <img src="{{asset('img/landing/Jas.jpg')}}" class="card-img-top" alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Contact</p>
+                            <p class="card-text">Artikel 3</p>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-4 mb-2">
+                <div class="col-4 mb-2">
                     <div class="card">
                         <img src="{{asset('img/landing/Selimut.jpg')}}" class="card-img-top" alt="">
                         <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Selimut</p>
+                            <p class="card-text">Artikel 4</p>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -182,19 +185,28 @@
     </section>
 
     <section class="text-white bg-blue">
-        <div class="container p-5">
-            <div class="row">
-                <div class="col-md-6 mb-4 mb-sm-0">
-                    <h5>Alamat</h5>
-                    <p>Jalan Sianipar</p>
-                    <br>
-                    <h5>Kontak</h5>
-                    <p>laundryxyz@gmail.com</p>
-                    <p>(0361)123456</p>
-                    <p>081234567890</p>
-                </div>
-                <div class="col-md-6">
-                    <iframe
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-6 mb-4 mb-sm-0">
+                <h5>Alamat</h5>
+                <p>Jalan Sianipar Balige</p>
+                <br>
+                <h5>Kunjungi akun resmi Instagram kami</h5>
+                <p>
+                    <a href="http://instagram.com/capcapung" target="_blank" class="text-white">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </p>
+                <h5>Kunjungi akun resmi TikTok kami</h5>
+                <p>
+                    <a href="http://tiktok.com/@capcapungofficial" target="_blank" class="text-white">
+                        <i class="fab fa-tiktok"></i> TikTok
+                    </a>
+                </p>
+                <p>Whatshapp</p>
+            </div>
+            <div class="col-md-6">
+                <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63784.65951407885!2d99.0681676!3d2.3223929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e04584fee0d55%3A0xd13973a06cb33d47!2sJl.%20Sianipar%2C%20Pardede%20Onan%2C%20Kec.%20Balige%2C%20Toba%2C%20Sumatera%20Utara!5e0!3m2!1sen!2sid!4v1734233039352!5m2!1sen!2sid"
                         width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""
                         aria-hidden="false" tabindex="0"></iframe>
@@ -207,7 +219,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Capcapung 2020</p>
+            <p class="m-0 text-center text-white">Copyright &copy; {{config('app.name')}} 2020</p>
         </div>
         <!-- /.container -->
     </footer>
@@ -215,3 +227,4 @@
 </body>
 
 </html>
+
