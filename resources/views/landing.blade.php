@@ -81,8 +81,8 @@
     <div class="container p-5">
         <div class="row">
             <div class="col-lg-6">
-                <h4>Pukka Simbolon dalam usaha Capcapung</h4>
-                <p>Dulu, saya hanya seorang pemula yang ingin mencari penghasilan tambahan dengan modal minim. Berawal dari rasa penasaran, saya mencoba membudidayakan cacing tanah di halaman belakang rumah. Awalnya, banyak orang meremehkan ide ini, menganggapnya kotor dan tidak menjanjikan. Namun, saya tetap melangkah dengan keyakinan bahwa setiap usaha yang ditekuni pasti membuahkan hasil. Dengan modal kecil dan belajar dari berbagai sumber, saya mulai memahami cara merawat cacing, mengelola media hidupnya, hingga mencari pasar yang tepat. Perlahan tapi pasti, hasil panen semakin banyak, permintaan meningkat, dan keuntungan pun mulai terasa. Dari pengalaman ini, saya sadar bahwa tidak ada usaha yang terlalu kecil jika dikerjakan dengan tekad dan strategi yang tepat.</p>
+                <h4>{{ __('landing.title1') }}</h4>
+                <p>{{ __('landing.content1') }}</p>
             </div>
             <div class="col-lg-6 d-none d-lg-block text-center">
                 <div class="embed-responsive embed-responsive-16by9">
@@ -97,9 +97,11 @@
 
 
 
+
     <section class="kelebihan bg-blue text-white">
     <div class="container p-5">
         <div class="row">
+            <!-- Video di Kiri -->
             <div class="col-lg-6 d-none d-lg-block text-center">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" width="560" height="315" 
@@ -107,22 +109,27 @@
                     </iframe>
                 </div>
             </div>
+            <!-- Teks di Kanan -->
             <div class="col-lg-6">
-                <h4>Peluang Usaha Budidaya Cacing Tanah: Modal Kecil, Keuntungan Besar!</h4>
-                <p>Budidaya cacing tanah kini semakin diminati sebagai peluang usaha yang menjanjikan. Dengan modal kecil, siapa pun bisa memulai bisnis ini di lahan terbatas. Cacing tanah memiliki permintaan tinggi, terutama untuk kebutuhan pakan ternak, pupuk organik, dan industri perikanan. Selain mudah dirawat, pertumbuhannya cepat, sehingga keuntungan bisa diraih dalam waktu singkat. Jika dikelola dengan baik, usaha ini bisa menjadi sumber penghasilan yang stabil dengan pasar yang terus berkembang.</p>
+                <h4>{{ __('landing.title2') }}</h4>
+                <p>{{ __('landing.content2') }}</p>
             </div>
         </div>
     </div>
 </section>
 
 
+
+
     <section class="kelebihan bg-blue text-white">
     <div class="container p-5">
         <div class="row">
+            <!-- Teks di Kiri -->
             <div class="col-lg-6">
-                <h4>Dari Kota ke Desa: Perjalanan Capcapung Menjadi Petani Sukses</h4>
-                <p>Capcapung adalah sosok inspiratif yang berani meninggalkan gemerlap karir di kota demi mengejar kehidupan yang lebih bermakna di desa. Dengan tekad kuat, ia beralih menjadi petani dan membuktikan bahwa hidup di pedesaan bukan berarti tanpa peluang. Berawal dari lahan sederhana, ia mengembangkan usaha pertanian yang kini sukses dan memberikan manfaat bagi banyak orang. Keputusan besar ini bukan hanya tentang mencari penghidupan, tetapi juga menemukan kebahagiaan sejati dalam kesederhanaan dan kedekatan dengan alam.</p>
+                <h4>{{ __('landing.title3') }}</h4>
+                <p>{{ __('landing.content3') }}</p>
             </div>
+            <!-- Video di Kanan -->
             <div class="col-lg-6 d-none d-lg-block text-center">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" width="560" height="315" 
@@ -133,6 +140,7 @@
         </div>
     </div>
 </section>
+
 
 
 
@@ -209,9 +217,6 @@
                         <img src="img/landing/youtube.png" alt="YouTube" width="24" height="24"> YouTube
                     </a>
                 </p>
-
-
-                <p>Whatshapp</p>
             </div>
             <div class="col-md-6">
                 <iframe
@@ -227,7 +232,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; {{config('app.name')}} 2020</p>
+            <p class="m-0 text-center text-white">Capcapung Official</p>
         </div>
         <!-- /.container -->
     </footer>
