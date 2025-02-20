@@ -194,15 +194,23 @@
                 <h5>Kunjungi akun resmi Instagram kami</h5>
                 <p>
                     <a href="http://instagram.com/capcapung" target="_blank" class="text-white">
-                        <i class="fab fa-instagram"></i> Instagram
+                        <img src="img/landing/instagram.png" alt="Instagram" width="24" height="24"> Instagram
                     </a>
                 </p>
                 <h5>Kunjungi akun resmi TikTok kami</h5>
                 <p>
                     <a href="http://tiktok.com/@capcapungofficial" target="_blank" class="text-white">
-                        <i class="fab fa-tiktok"></i> TikTok
+                        <img src="img/landing/tiktok.png" alt="TikTok" width="24" height="24"> TikTok
                     </a>
                 </p>
+               <h5>Kunjungi akun resmi YouTube kami</h5>
+                <p>
+                    <a href="http://www.youtube.com/@Capcapung" target="_blank" class="text-white">
+                        <img src="img/landing/youtube.png" alt="YouTube" width="24" height="24"> YouTube
+                    </a>
+                </p>
+
+
                 <p>Whatshapp</p>
             </div>
             <div class="col-md-6">
