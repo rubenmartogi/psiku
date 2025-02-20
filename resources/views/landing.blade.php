@@ -208,9 +208,6 @@
     <footer class="py-5 bg-dark">
         <div class="container">
             <p class="m-0 text-center text-white">Copyright &copy; Capcapung 2020</p>
-            <h1>ruben</h1>
-            <h1>wkwkkw</h1>
-
         </div>
         <!-- /.container -->
     </footer>
