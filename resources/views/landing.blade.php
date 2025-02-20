@@ -189,7 +189,7 @@
     </section>
 
     <section class="text-center p-5">
-        <h3>Temukan kami!</h3>
+        <h3>{{ __('landing.temukan') }}</h3>
     </section>
 
     <section class="text-white bg-blue">

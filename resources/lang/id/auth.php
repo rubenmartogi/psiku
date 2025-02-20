@@ -29,5 +29,7 @@ return [
     'register_success' => 'Daftar berhasil, silahkan masuk',
     'logout_success' => 'Anda telah berhasil keluar',
     'please_login' => 'Akses ditolak, silahkan masuk terlebih dahulu!',
-    'remember_me' => 'Ingat saya'
+    'remember_me' => 'Ingat saya',
+    'back_to_home' => 'Kembali ke Beranda',
+
 ];

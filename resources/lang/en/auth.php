@@ -34,5 +34,7 @@ return [
     'register_success' => 'Register success, please login',
     'logout_success' => 'You have logged out successfully',
     'please_login' => 'Access denied, please login first!',
-    'remember_me' => 'Remember me'
+    'remember_me' => 'Remember me',
+    'back_to_home' => 'Back to Home',
+
 ];

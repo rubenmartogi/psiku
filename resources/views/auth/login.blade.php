@@ -63,6 +63,10 @@
                         <hr>
                         <div class="text-center">
                             <a href="{{ url('register') }}">@lang('auth.register_link')</a>
+                        <div class="text-center mt-3">
+                            <a href="{{ url('/') }}" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> @lang('auth.back_to_home')
+                            </a>
                         </div>
                     </div>
                 </div>
