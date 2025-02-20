@@ -21,17 +21,18 @@ header {
     overflow-x: auto;
 }
 .video-fluid {
-    width: 90%;
-    height: 80vh;
-    object-fit: cover;
+    width: 100%;
+    height:90vh;
     position: relative; /* Pastikan tetap di tempat */
     left: 0%; /* Geser ke kanan jika perlu */
 }
 
 
 .video-fluid {
-    width: 90%;
-    height: 80vh; /* Video setinggi layar */
+    width: 100%;
+    height: 80vh; /* Sesuaikan dengan kebutuhan */
     object-fit: cover;
+    margin-top: 0px; /* Geser ke atas */
 }
+
 
