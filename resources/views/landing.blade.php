@@ -59,36 +59,36 @@
 
   <!-- Header -->
 <!-- Header -->
-<header class="bg-blue py-5">
-    <div class="container-fluid h-100">
-        <div class="row h-100 align-items-center d-flex">
-            <!-- Logo di kiri -->
-            <div class="col-lg-6 text-center">
-                <img class="img-fluid" src="{{ asset('img/landing/LOGO.png') }}" alt="Capcapung Logo" style="max-width: 550px;">
-                <p class="lead mb-5 text-white-50">@lang('landing.tagline')</p>
-            </div>
-            <!-- Video di kanan -->
-            <div class="col-lg-6 d-flex justify-content-end p-0 overflow-hidden">
-                <video class="video-fluid" autoplay muted loop>
-                    <source src="{{ asset('img/landing/vidio.mp4') }}" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+<!-- <header class="bg-blue py-5"> -->
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center d-flex">
+                <!-- Logo di kiri -->
+                <div class="col-lg-6 text-center">
+                    <img class="img-fluid" src="{{ asset('img/landing/LOGO.png') }}" alt="Capcapung Logo" style="max-width: 550px;">
+                    <p class="lead mb-5 text-white-50">@lang('landing.tagline')</p>
+                </div>
+                <!-- Video di kanan -->
+                <div class="col-lg-6 d-flex justify-content-end p-0 overflow-hidden">
+                    <video class="video-fluid" autoplay muted loop>
+                        <source src="{{ asset('img/landing/vidio.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
 
 
 
 
-
-    <section class="p-5 text-center">
+    <!-- <section class="text-center p-5"> -->
+    <section class="p-5 text-center" style="background: white;">
         <h3>@lang('landing.why')</h3>
     </section>
 
     <!-- Page Content -->
-    <section class="kelebihan bg-blue text-white">
+    <section class="p-5 text-center" style="background: white;">
     <div class="container p-5">
         <div class="row">
             <div class="col-lg-6">
@@ -109,7 +109,7 @@
 
 
 
-    <section class="kelebihan bg-blue text-white">
+    <section class="p-5 text-center" style="background: white;">
     <div class="container p-5">
         <div class="row">
             <!-- Video di Kiri -->
@@ -132,7 +132,7 @@
 
 
 
-    <section class="kelebihan bg-blue text-white">
+    <section class="p-5 text-center" style="background: white;">
     <div class="container p-5">
         <div class="row">
             <!-- Teks di Kiri -->
@@ -155,22 +155,20 @@
 
 
 
-    <section class="text-center p-5">
-    <button class="btn btn-primary">Tambahkan Artikel</button>
-</section>
+   
 
 
-    <section class="bg-blue p-5 text-center">
+<section class="p-5 text-center" style="background: white;">
         <div class="container">
             <div class="row flex-row flex-nowrap kategori">
                 <div class="col-4 mb-2">
-                    <div class="card">
-                        <img src="{{asset('img/landing/Baju.jpg')}}" class="card-img-top" alt="">
-                        <div class="card-body d-none d-lg-block">
-                            <p class="card-text">Artikel 1</p>
-                        </div>
+                <div class="card">
+                    <iframe src="{{ asset('art/capcapung.pdf') }}" class="card-img-top" style="width: 100%; height: 300px;" frameborder="0"></iframe>
+                    <div class="card-body d-none d-lg-block">
+                        <p class="card-text">Artikel 1</p>
                     </div>
                 </div>
+            </div>
                 <div class="col-4 mb-2">
                     <div class="card">
                         <img src="{{asset('img/landing/Celana.jpg')}}" class="card-img-top" alt="">
@@ -199,11 +197,18 @@
         </div>
     </section>
 
-    <section class="text-center p-5">
+    <section class="p-5 text-center" style="background: white;">
+     <!-- <section class="text-center p-5"> -->
+    <button class="btn btn-primary">Tambahkan Artikel</button>
+</section>
+
+ <!-- <section class="text-center bg-blue" > -->
+    <section class="p-5 text-center" style="background: white;">
         <h3>{{ __('landing.temukan') }}</h3>
     </section>
 
-    <section class="text-white bg-blue">
+    <section class="p-5 text-black" style="background: white;">
+    <!-- <section class="text-white bg-blue"> -->
     <div class="container p-5">
         <div class="row">
             <div class="col-md-6 mb-4 mb-sm-0">
@@ -212,19 +217,19 @@
                 <br>
                 <h5>Kunjungi akun resmi Instagram kami</h5>
                 <p>
-                    <a href="http://instagram.com/capcapung" target="_blank" class="text-white">
+                    <a href="http://instagram.com/capcapung" target="_blank" class="text-black">
                         <img src="img/landing/instagram.png" alt="Instagram" width="24" height="24"> Instagram
                     </a>
                 </p>
                 <h5>Kunjungi akun resmi TikTok kami</h5>
                 <p>
-                    <a href="http://tiktok.com/@capcapungofficial" target="_blank" class="text-white">
+                    <a href="http://tiktok.com/@capcapungofficial" target="_blank" class="text-black">
                         <img src="img/landing/tiktok.png" alt="TikTok" width="24" height="24"> TikTok
                     </a>
                 </p>
                <h5>Kunjungi akun resmi YouTube kami</h5>
                 <p>
-                    <a href="http://www.youtube.com/@Capcapung" target="_blank" class="text-white">
+                    <a href="http://www.youtube.com/@Capcapung" target="_blank" class="text-black">
                         <img src="img/landing/youtube.png" alt="YouTube" width="24" height="24"> YouTube
                     </a>
                 </p>

@@ -1,38 +1,58 @@
 /*!
- * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Start Bootstrap - Business Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
+
 body {
     padding-top: 56px;
     font-family: 'Nunito', sans-serif;
+    position: relative;
+    background: linear-gradient(to bottom, #62CFF6, #D6F935, #026559);
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 
 header {
     height: 92vh;
 }
 
+/* Background Blue: Gunakan untuk elemen tertentu jika ingin tetap ada gradasi tambahan */
 .bg-blue {
     background: linear-gradient(to bottom, #62CFF6, #D6F935, #026559);
+    z-index: -2;
 }
 
-
+/* Pastikan kategori bisa scroll secara horizontal tanpa mengganggu tata letak */
 .kategori {
     overflow-x: auto;
 }
-.video-fluid {
-    width: 100%;
-    height:90vh;
-    position: relative; /* Pastikan tetap di tempat */
-    left: 0%; /* Geser ke kanan jika perlu */
+
+/* Video Container: Sesuaikan ukurannya agar tetap responsif */
+.video-container {
+    position: relative;
+    width: 100%; /* Gunakan 100% agar menyesuaikan dengan parent */
+    padding-top: 56.25%; /* Aspect ratio 16:9 */
+    overflow: hidden;
+    z-index: -1;
 }
 
-
-.video-fluid {
-    width: 100%;
-    height: 80vh; /* Sesuaikan dengan kebutuhan */
+/* Styling Video agar tidak keluar dari area */
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Gunakan 100% agar tetap responsif */
+    height: 100%;
     object-fit: cover;
-    margin-top: 0px; /* Geser ke atas */
 }
 
-
+/* Video yang lebih fleksibel */
+.video-fluid {
+    width: 100%;
+    height: auto;
+    max-height: 650px;
+    object-fit: cover;
+    border-radius: 20px;
+}
