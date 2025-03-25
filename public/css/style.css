@@ -13,6 +13,31 @@ body {
     background-size: cover;
     
 }
+    /* .navbar-brand {
+        color: black !important;
+    } */
+.navbar {
+    padding: 10px 40px; /* Tambahkan padding */
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+button[type="submit"] {
+    border-radius: 20px;
+}
+
+.dropdown-toggle,
+.btn-success {
+    border-radius: 20px;
+}
 
 header {
     height: 92vh;
@@ -54,5 +79,10 @@ header {
     height: auto;
     max-height: 650px;
     object-fit: cover;
-    border-radius: 20px;
+    /* border-radius: 10px; */
 }
+
+.text-justify {
+    text-align: justify;
+}
+
