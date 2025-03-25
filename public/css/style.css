@@ -34,7 +34,10 @@ button[type="submit"] {
     border-radius: 20px;
 }
 
-.dropdown-toggle,
+
+.dropdown-toggle{
+    padding: auto;
+}
 .btn-success {
     border-radius: 20px;
 }

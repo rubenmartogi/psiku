@@ -35,11 +35,11 @@
         <a class="navbar-brand" href="">Capcapung</a>
 
       <!-- Search di tengah -->
-    <form class="d-flex flex-grow-1 justify-content-center" style="max-width: 600px;">
+    <!-- <form class="d-flex flex-grow-1 justify-content-center" style="max-width: 600px;">
         <input class="form-control me-2" type="search" placeholder="Cari artikel..." 
             aria-label="Search" style="width: 100%; height: 40px; font-size: 16px;">
         <button class="btn btn-outline-light" type="submit" style="height: 39px;">Cari</button>
-    </form>
+    </form> -->
 
 
         <!-- Bahasa & Login ke kanan -->
@@ -51,7 +51,7 @@
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="{{url('id')}}">Indonesia</a>
-                    <a class="dropdown-item" href="{{url('en')}}">Inggris</a>
+                    <a class="dropdown-item" href="{{url('en')}}">English</a>
                 </div>
             </div>
             <a class="btn btn-success" href="{{url('login')}}">@lang('landing.loginOrRegister')</a>
@@ -163,7 +163,7 @@
    
 
 
-<section class="p-5 text-center" style="background: white;">
+<!-- <section class="p-5 text-center" style="background: white;">
         <div class="container">
             <div class="row flex-row flex-nowrap kategori">
                 <div class="col-4 mb-2">
@@ -192,11 +192,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="p-5 text-center" style="background: white;">
-    <a href="/login" class="btn btn-primary">Tambahkan Artikel</a>
-</section>
+        <!-- <section class="p-5 text-center" style="background: white;">
+        <a href="/login" class="btn btn-primary">Tambahkan Artikel</a>
+    </section> -->
 
 
  <!-- <section class="text-center bg-blue" > -->
@@ -205,27 +205,26 @@
     </section>
 
     <section class="p-5 text-black" style="background: white;">
-    <!-- <section class="text-white bg-blue"> -->
     <div class="container p-5">
         <div class="row">
             <div class="col-md-6 mb-4 mb-sm-0">
-                <h5>Alamat</h5>
-                <p>Jl. Sisingamangaraja, Sitoluama Laguboti, Toba Samosir Sumatera Utara, Indonesia </p>
-                <p>Kode Pos: 22381</p>
+                <h5>{{ __('landing.address_title') }}</h5>
+                <p>{{ __('landing.address') }}</p>
+                <p>{{ __('landing.postal_code') }}</p>
                 <br>
-                <h5>Kunjungi akun resmi Instagram kami</h5>
+                <h5>{{ __('landing.instagram_title') }}</h5>
                 <p>
                     <a href="http://instagram.com/capcapung" target="_blank" class="text-black">
                         <img src="img/landing/instagram.png" alt="Instagram" width="24" height="24"> Instagram
                     </a>
                 </p>
-                <h5>Kunjungi akun resmi TikTok kami</h5>
+                <h5>{{ __('landing.tiktok_title') }}</h5>
                 <p>
                     <a href="http://tiktok.com/@capcapungofficial" target="_blank" class="text-black">
                         <img src="img/landing/tiktok.png" alt="TikTok" width="24" height="24"> TikTok
                     </a>
                 </p>
-               <h5>Kunjungi akun resmi YouTube kami</h5>
+                <h5>{{ __('landing.youtube_title') }}</h5>
                 <p>
                     <a href="http://www.youtube.com/@Capcapung" target="_blank" class="text-black">
                         <img src="img/landing/youtube.png" alt="YouTube" width="24" height="24"> YouTube
@@ -239,10 +238,9 @@
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
-
-
         </div>
-    </section>
+    </div>
+</section>
     <!-- /.container -->
 
     <!-- Footer -->

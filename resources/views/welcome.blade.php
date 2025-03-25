@@ -7,7 +7,7 @@
 <!-- <<<<<<< HEAD -->
         <title>Capcapung</title>
 <!-- ======= -->
-        <title>Loundry</title>
+        <title>Capcapung</title>
 <!-- >>>>>>> 75faf54 (Ruben) -->
 
         <!-- Fonts -->
